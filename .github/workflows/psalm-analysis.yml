@@ -21,7 +21,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SCAN_AUTO_BUILD: true
         with:
-          output: reports
+          output: report_file
           type: php
         
       - name: Upload Security Analysis results to GitHub
