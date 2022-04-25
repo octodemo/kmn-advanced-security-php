@@ -34,3 +34,6 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+    
+    - name: Psalm – Security Scanner for PHP
+      uses: psalm/psalm-github-security-scan@1.2.1
